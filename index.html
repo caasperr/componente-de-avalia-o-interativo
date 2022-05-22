@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    
+      <div class="items" id="container1">
+        <img src="images/icon-star.svg" class="star" alt="star-icon">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+        <div class="rating">
+        
+            <div class="ratingNum">1</div>
+            <div class="ratingNum">2</div>
+            <div class="ratingNum">3</div>
+            <div class="ratingNum">4</div>
+            <div class="ratingNum">5</div>
+          
+        </div>
+        <input type="submit" value="SUBMIT" class="submit">
+      </div>
+      <div class="container hide" id="container2">
+        <div class="thankyou">
+          <img src="images/illustration-thank-you.svg" alt="thankyou">
+          <h4>You selected <!-- Add rating here --> out of 5</h4>
+          <h1>Thank you</h1>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rafael Pinheiro</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
